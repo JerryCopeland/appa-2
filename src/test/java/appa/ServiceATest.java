@@ -9,7 +9,7 @@ public class ServiceATest {
 	@Test
 	public void testPlus() {
 		IServiceA serviceA = new ServiceA();
-		
+		/* TEST */
 		int result = serviceA.plus(10, 10);
 		
 		assertEquals(20, result);
